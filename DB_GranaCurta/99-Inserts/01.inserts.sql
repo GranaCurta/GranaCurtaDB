@@ -55,3 +55,31 @@ INSERT INTO granacurta.tb_contas(
 		2,
 		GETDATE() 
 GO
+
+INSERT INTO granacurta.tb_cartoes (
+	nm_cartao,
+	vl_limite,
+	nm_bandeira,
+	nm_4_ult_dig,
+	--dt_vencimento,
+	--dt_melhor_data,
+	vl_vencimento_dia,
+	vl_melhor_dia,
+	id_usuario,
+	dt_criacao
+)
+	SELECT
+		'Bradesco',
+		1200,
+		'Visa',
+		'1243',
+		--CAST(GETDATE() AS smalldatetime),
+		--CAST(GETDATE() -1 AS smalldatetime),
+		--CAST(GETDATE() AS DATE),
+		--CAST(GETDATE() -1 AS DATE),
+		10,
+		8,
+		1,
+		CAST(GETDATE() AS smalldatetime)
+GO
+
