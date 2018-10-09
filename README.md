@@ -3,11 +3,12 @@ GranaCurtaDB
 
 Repositório para armazenar artefatos de banco de dados.
 
-Padronização de nomenclatura estruturas
+Padronização de nomenclatura de estruturas
 --------------------------
 * tb_ = Tabela
 * vw_ = Visões
 * fn_ = Funções
+* sp_ = Stored procedures
 
 Padronização de nomenclatura de campos
 --------------------------------------
@@ -21,6 +22,7 @@ Padronização de nomenclatura de campos
 * nu_ = Números
 * vl_ = Valores
 * pc_ = Porcentagens
+* qt_ = Quantidades
 
 Padronização de nomenclatura de constraints/índices
 --------------------------------------
