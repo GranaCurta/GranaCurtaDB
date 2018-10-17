@@ -5,8 +5,8 @@ BEGIN TRANSACTION
 --COMMIT
 --ROLLBACK
 
-INSERT INTO granacurta.tb_tipos_movimentacoes(
-	nm_tipo_movimentacao,
+INSERT INTO granacurta.tb_categorias(
+	nm_categoria,
 	dt_criacao
 )
 	SELECT 'Casa', GETDATE() UNION
